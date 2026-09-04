@@ -866,9 +866,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/libqcodec2_dolbydecoderfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_dolbydecoderfilter.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/libqcodec2_dolbyencoderfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_dolbyencoderfilter.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libhwdapaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhwdapaidl.so \
-    vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
-    vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvol.so \
-    vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
+    vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgenerator.so \
+    vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libmiwndnsprocessingaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmiwndnsprocessingaidl.so \
+    vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libozoaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libozoaidl.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libdlbvolaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvolaidl.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libspatializeraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspatializeraidl.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/soundfx/libswgamedapaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedapaidl.so \

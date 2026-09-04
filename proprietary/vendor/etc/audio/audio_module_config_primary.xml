@@ -73,7 +73,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
 
         <!-- start of sink mixports-->
         <mixPort name="primary_in" role="sink" maxOpenCount="3" maxActiveCount="3">
-            <profile samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000" channelLayouts="LAYOUT_MONO LAYOUT_STEREO LAYOUT_FRONT_BACK" channelMasks="INDEX_MASK_3 INDEX_MASK_4" formatType="PCM" pcmType="INT_16_BIT" />
+            <profile samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000" channelLayouts="LAYOUT_MONO LAYOUT_STEREO LAYOUT_FRONT_BACK LAYOUT_2POINT0POINT2" channelMasks="INDEX_MASK_3 INDEX_MASK_4" formatType="PCM" pcmType="INT_16_BIT" />
         </mixPort>
         <mixPort name="compress_in" role="sink" flags="DIRECT">
             <profile name="compress-capture-AAC-LC" samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000" channelLayouts="LAYOUT_STEREO LAYOUT_MONO LAYOUT_FRONT_BACK" formatType="NON_PCM" encoding="audio/mp4a.40.02" />
