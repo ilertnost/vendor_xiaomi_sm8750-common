@@ -19001,6 +19001,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "bluetooth_audio_qti.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/vintf/manifest/bluetooth_audio_qti.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "manifest_btaudiocoreservices_qti.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_btaudiocoreservices_qti.xml",

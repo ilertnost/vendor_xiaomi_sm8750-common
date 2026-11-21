@@ -994,6 +994,7 @@ PRODUCT_PACKAGES += \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
     manifest_btaudiocoreservices_qti.xml \
+    bluetooth_audio_qti.xml \
     mwqem-saidl.xml \
     qasr_vintf.xml \
     qcrilhook-saidl.xml \
