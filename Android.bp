@@ -22333,13 +22333,3 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
-prebuilt_etc {
-    name: "hfp_codec_capabilities_xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/aidl/hfp/hfp_codec_capabilities.xml",
-    filename_from_src: true,
-    sub_dir: "aidl/hfp",
-    prefer: true,
-    soc_specific: true,
-}
