@@ -17,7 +17,7 @@
                     { "image"   : "/mnt/product/vm-persist/trustedvm/persist.img", "label" : 11, "read_write" : true }
                ],
                 "enable"        : true,
-                "autostart"     : true,
+                "autostart"     : false,
                 "legacy"        : true,
                 "boot_complete_timeout" : 1000,
                 "no_fs_dependency" : false,
@@ -47,7 +47,7 @@
                 "boot_wait_time": 2,
                 "boot_ops"      : "start",
                 "enabled_socs": ["tuna","kera","parrot","clarence"],
-                "autostart"     : true,
+                "autostart"     : false,
                 "legacy"        : true,
                 "no_fs_dependency" : true
             }
